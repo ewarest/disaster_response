@@ -22,13 +22,11 @@ Additionally to the Anaconda distribution of Python it is necessary to install p
 
 ### Business Understanding
 
-Airbnb, founded as part of the sharing economy, enables everyone to rent out accommodations for short term. After it’s expansion in the last decade, the company faces criticism as rising Airbnb rentals extract living spaces and leads to higher rents for locals.
-
-The analysis should show if Airbnb is a serious competitor to the hospitality industry, who offers accommodations and how cities are impacted from this development.
+In case of an emergency every minute counts. A Machine Learning model can classify messages in Social Media and help emergency worker to make better and faster decisions. This enables better coordination for versatile needs as food, accommodation or medical help.
 
 ### Data Understanding
 
-This analysis project uses data from insidedairbnb. Key objects are Airbnb listings and their reviews, which are provided in separated files. Airbnb states that about 50% of guests leave a review, which makes them a good proxy for the platform usage in a city. The listing file consists of one row per listing and contains an ID, listings and hosts name as several aggregated values. The review file contains the listings ID and a date for every review.
+Emergency messages for this analysis project were provided by Figure Eight. They come with 36 categories, which serve as our target for the machine learning model.
 
 ### Data Preparation and Modeling
 
@@ -45,4 +43,4 @@ The results can be viewed in a Flask Web App, which imports the created model to
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Thanks to insidedairbnb.com for providing latest data on Airbnb listings. The analysis was done with data released in September 2019.
+The data was provided by Figure Eight in context of a Udacity online course.
